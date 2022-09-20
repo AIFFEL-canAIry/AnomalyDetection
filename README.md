@@ -7,7 +7,7 @@
 : 학습 전 YOLO 데이터셋 확인
 
 03_run_yolov7.ipynb
-: 학습
+: 학습 및 추론
 
 04_display_result.ipynb
-: 학습 결과 확인
+: 추론 결과 확인
