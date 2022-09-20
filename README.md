@@ -1,6 +1,6 @@
 # AIFFEL canAIry
 
-01_org_dataset.ipynb
+01_make_dataset.ipynb
 : YOLO 데이터셋 구축 (경로 설정, 라벨 생성, 데이터셋 분리)
 
 02_run_yolov7.ipynb
