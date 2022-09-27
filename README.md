@@ -1,4 +1,4 @@
-# AIFFEL canAIry
+# AIFFELTON canAIry
 
 01_make_dataset.ipynb
 : YOLO 데이터셋 구축 (경로 설정, 라벨 생성, 데이터셋 분리)
