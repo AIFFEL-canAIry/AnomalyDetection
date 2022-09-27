@@ -1,4 +1,4 @@
-# AIFFELTON canAIry
+# AIFFELTON canAIry(열화상 CCTV)
 - Step1. Data EDA<br/>
 - Step2. Object Detection<br/>
 - Step3. Anomaly Detection<br/>
