@@ -15,3 +15,4 @@
 : 추론 결과 확인
 
 ## Data
+[열화상 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=514)
