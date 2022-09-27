@@ -40,7 +40,12 @@
 
 
 ## Model pick - YOLO
+- 기본적인 욜로 학습 과정<br/>
+![2](https://user-images.githubusercontent.com/98515262/192439678-4a12bca1-42a9-4371-9916-89864b64b022.png)
 - input에 열화상 데이터를 넣어서 학습 시킴_RGB 파일<br/>
 ![화면 캡처 2022-09-27 142010](https://user-images.githubusercontent.com/98515262/192438616-f02de0c4-f2e9-4004-9f8a-c3b6b5bf6b9d.png)
 - input에 열화상 데이터를 넣어서 학습 시킴_RAW 파일<br/>
 ![화면 캡처 2022-09-27 142140](https://user-images.githubusercontent.com/98515262/192438835-4133af37-1650-4e0d-bbec-2251c1f6ccf5.png)
+- 경량화 모델 학습 과정<br/>
+![화면 캡처 2022-09-27 142913](https://user-images.githubusercontent.com/98515262/192439957-36d76b04-0240-4816-aef3-6d887076e0b6.png)
+
