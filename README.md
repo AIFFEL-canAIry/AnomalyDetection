@@ -1,5 +1,10 @@
 # AIFFELTON canAIry
+Step1. Data EDA<br/>
+Step1. Data EDA<br/>
+Step1. Data EDA<br/>
+Step1. Data EDA<br/>
 
+## Files
 01_make_dataset.ipynb
 : YOLO 데이터셋 구축 (경로 설정, 라벨 생성, 데이터셋 분리)
 
@@ -8,3 +13,5 @@
 
 03_display_result.ipynb
 : 추론 결과 확인
+
+## Data
