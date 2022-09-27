@@ -49,3 +49,5 @@
 - 경량화 모델 학습 과정<br/>
 ![화면 캡처 2022-09-27 142913](https://user-images.githubusercontent.com/98515262/192439957-36d76b04-0240-4816-aef3-6d887076e0b6.png)
 
+## Anomaly Detection Model - PatchCore
+![화면 캡처 2022-09-27 143118](https://user-images.githubusercontent.com/98515262/192440233-db8bb2f3-eada-4f44-ac61-573d95044c84.png)
