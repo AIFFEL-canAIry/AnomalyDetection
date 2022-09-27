@@ -1,8 +1,8 @@
 # AIFFELTON canAIry
 Step1. Data EDA<br/>
-Step1. Data EDA<br/>
-Step1. Data EDA<br/>
-Step1. Data EDA<br/>
+Step2. Object Detection<br/>
+Step3. Anomaly Detection<br/>
+Step4. Model Improve<br/>
 
 ## Files
 01_make_dataset.ipynb
