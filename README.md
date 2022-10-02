@@ -51,3 +51,7 @@ object_detection
 
 ## Anomaly Detection Model - PatchCore
 ![화면 캡처 2022-09-27 143118](https://user-images.githubusercontent.com/98515262/192440233-db8bb2f3-eada-4f44-ac61-573d95044c84.png)
+
+## Anomaly Detection Model - PatchCore(학습과정)
+![그림1](https://user-images.githubusercontent.com/98515262/193442493-c485c599-54c1-4d16-a126-308c1bede693.png)
+
