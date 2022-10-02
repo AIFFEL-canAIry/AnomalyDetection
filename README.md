@@ -12,7 +12,7 @@ anomaly_detection
 : 이상치 탐지
 
 object_detection
-: 객체 탐지 모델 학습과화경량화
+: 객체 탐지 모델 학습과 경량화
 
 ## Dataset
 [열화상 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=514)
