@@ -77,5 +77,5 @@ object_detection
 ![그림9](https://user-images.githubusercontent.com/98515262/193443232-71d76849-5322-41c4-b010-cd089a5473db.gif)
 
 - 철도차량(기어박스) 이상치 탐지<br/>
-![그림10](https://user-images.githubusercontent.com/98515262/193443281-b224d28b-02d5-44bd-8b70-e169ce8d62b7.gif)
+![그림11](https://user-images.githubusercontent.com/98515262/193443377-0f84d37a-2041-4d9e-8710-185b65ea41b7.gif)
 
