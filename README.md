@@ -66,7 +66,7 @@ object_detection
 ## 최종 데이터 선정
 ![그림6](https://user-images.githubusercontent.com/98515262/193443049-55ee49e1-b0d5-477d-b04f-52cf8d07dec2.png)
 - 산업 시설별로는 철도차량이 가장 우수했음 파란 바운딩 박스는 mAP는 높지만 loss가 안정적이지 못했음<br/>
-- 5class로 학습은 특정 산업 시설을 지정하고 학습한게 아니고 여러데이터를 합쳐 사용하여 특정 산업시설 이상치 탐지 부적절</br>
+- 5class 학습은 여러데이터를 합쳐 사용하였기  특정 산업시설 이상치 탐지 부적절</br>
 
 ## 모델 경량화 성능 비교
 ![그림7](https://user-images.githubusercontent.com/98515262/193443155-fee75b0b-ecfd-47fa-8405-f0facae6bbe1.png)
