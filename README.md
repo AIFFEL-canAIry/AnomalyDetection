@@ -2,17 +2,16 @@
 - Step1. Data EDA<br/>
 - Step2. Object Detection<br/>
 - Step3. Anomaly Detection<br/>
-- Step4. Model Improve<br/>
 
 ## Files
 EDA
 : 모델 작업전 데이터 EDA
 
 anomaly_detection
-: 이상치 탐지
+: 이상치 탐지 모델 구현 코드
 
 object_detection
-: 객체 탐지 모델 학습과 경량화
+: 객체 탐지 모델(YOLOV5, YOLOV7)코드와 경량화 한 코드 포함
 
 ## Dataset
 [열화상 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=514)
@@ -46,12 +45,37 @@ object_detection
 ![화면 캡처 2022-09-27 142010](https://user-images.githubusercontent.com/98515262/192438616-f02de0c4-f2e9-4004-9f8a-c3b6b5bf6b9d.png)
 - input에 열화상 데이터를 넣어서 학습 시킴_RAW 파일<br/>
 ![화면 캡처 2022-09-27 142140](https://user-images.githubusercontent.com/98515262/192438835-4133af37-1650-4e0d-bbec-2251c1f6ccf5.png)
-- 경량화 모델 학습 과정<br/>
-![화면 캡처 2022-09-27 142913](https://user-images.githubusercontent.com/98515262/192439957-36d76b04-0240-4816-aef3-6d887076e0b6.png)
 
 ## Anomaly Detection Model - PatchCore
 ![화면 캡처 2022-09-27 143118](https://user-images.githubusercontent.com/98515262/192440233-db8bb2f3-eada-4f44-ac61-573d95044c84.png)
 
 ## Anomaly Detection Model - PatchCore(학습과정)
 ![그림1](https://user-images.githubusercontent.com/98515262/193442493-c485c599-54c1-4d16-a126-308c1bede693.png)
+
+
+## 산업 시설별 이상치 탐지 평가지표
+- 서부 발전소<br/>
+![그림2](https://user-images.githubusercontent.com/98515262/193442919-d7346fa0-8d4a-4567-89a1-7db275c05e1d.png)
+- 변전소<br/>
+![그림3](https://user-images.githubusercontent.com/98515262/193443008-2e0ab1f3-9b99-4960-9cbd-b853297cea7e.png)
+- 쓰레기소각장<br/>
+![그림4](https://user-images.githubusercontent.com/98515262/193443017-39da43ec-e002-4770-a624-4e843d61b004.png)
+- 철도차량<br/>
+![그림5](https://user-images.githubusercontent.com/98515262/193443032-6437d4e7-9581-473c-ba5f-431bb47b600d.png)
+
+## 최종 데이터 선정
+![그림6](https://user-images.githubusercontent.com/98515262/193443049-55ee49e1-b0d5-477d-b04f-52cf8d07dec2.png)
+- 산업 시설별로는 철도차량이 가장 우수했음 파란 바운딩 박스는 mAP는 높지만 loss가 안정적이지 못했음<br/>
+- 5class로 학습은 특정 산업 시설을 지정하고 학습한게 아니고 여러데이터를 합쳐 사용하여 특정 산업시설 이상치 탐지 부적절</br>
+
+## 모델 경량화 성능 비교
+![그림7](https://user-images.githubusercontent.com/98515262/193443155-fee75b0b-ecfd-47fa-8405-f0facae6bbe1.png)
+
+
+# 최종 결과
+- 철도차량(베어링) 이상치 탐지<br/>
+![그림9](https://user-images.githubusercontent.com/98515262/193443232-71d76849-5322-41c4-b010-cd089a5473db.gif)
+
+- 철도차량(기어박스) 이상치 탐지<br/>
+![그림10](https://user-images.githubusercontent.com/98515262/193443281-b224d28b-02d5-44bd-8b70-e169ce8d62b7.gif)
 
